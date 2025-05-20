@@ -4,4 +4,14 @@ title: Sofia Imber
  
 # Imber testing
  
-Testing out Markdown
+This is a description of the collection
+---
+ 
+## A IIIF Viewer
+ 
+The `<Viewer />` is a React component that takes a single property, `iiifContent`, which is the URI to the
+IIIF manifest. The component will then fetch the Manifest and render a deep-zoom viewer. The viewer is
+responsive and will resize to fit the container it is placed in. These Manifests can be part of the Canopy
+source Collection but are not limited to it.
+ 
+<Viewer iiifContent="https://api.dc.library.northwestern.edu/api/v2/works/14a6aa15-9e12-47a7-9617-91f430d4f47b?as=iiif" />
