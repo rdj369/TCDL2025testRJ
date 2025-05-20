@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rdj369.github.io/TCDL2025testRJ
+
+# Sitemaps
+Sitemap: https://rdj369.github.io/TCDL2025testRJ/sitemap.xml
